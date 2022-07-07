@@ -1,0 +1,29 @@
+Blog and store prototype Journal:
+
+Front-end: 
+VueJs, ViteCLi, VueRouter,
+
+Extensions and packages: 
+
+EsLint,Prettier,Tailwind.css, Vuelidate 
+
+
+Logs:
+7/5/2022, branch master -- Pushed initial setup (VueRouter, Tailwind.css, First Views, First components)
+- || - , branch  registration-page-desing --- Went out of scope with branch name 
+
+* Created Design for 4 new views (Log in, Profile, Register, Navigation) 
+* Created Routing (UI needs updates)
+* Several Ui's need update 
+*
+* To Do's:
+* Fix UI'S 
+* Install Prettier Extension (Need to have formated code ASAP -- else with be a mess)
+* Change Editor if possible (InteliJ or PhpStorm)
+* Commit changes, push, merge in master 
+* Create 'develop' branch for big commits and work there
+* Create Reusable componets from current design 
+* Catch data with v-model 
+* Form Validations 
+* Tailwind course -- ASAP Keep it short 
+* Add remember me and forgot password to Log In view

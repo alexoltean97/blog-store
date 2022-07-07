@@ -1,6 +1,7 @@
 <template>
-    
-<div class="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <Header/>
+
+    <div class="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
 
   <div class="max-w-md w-full space-y-8">
 
@@ -8,7 +9,7 @@
       <Logo src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"/>
 
 
-
+        <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">Login</h2>
 
     <form class="mt-8 space-y-6" action="#" method="POST">
       <input type="hidden" name="remember" value="true">
@@ -80,25 +81,23 @@
     </form>
   </div>
 </div>
-
-    
 </template>
 
 <script>
-import Logo from "./Reusable/Logo.vue";
+import Header from '../components/layout/Header.vue';
 
 export default{
-
-name:'Form',
+name: 'Login',
 
 components: {
-    Logo
+    Header
 },
 
-data(){
-}
 }
 
+
 </script>
+
 <style scoped>
+
 </style>
